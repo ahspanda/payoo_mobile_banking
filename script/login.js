@@ -14,6 +14,7 @@ document.getElementById('login-btn').addEventListener("click", function(event){
      if(contactNumber === '01315774969' && pinNumber === '1119'){
           // window.location.href = "./home.html"
           // window.location.replace('/home.html');
+          alert('login successfull');
           window.location.assign('/home.html');
      }
      else{
