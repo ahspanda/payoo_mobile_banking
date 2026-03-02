@@ -15,7 +15,7 @@ document.getElementById('login-btn').addEventListener("click", function(event){
           // window.location.href = "./home.html"
           // window.location.replace('/home.html');
           alert('login successfull');
-          window.location.assign('/home.html');
+          window.location.href = "home.html";
      }
      else{
           alert('check your number and pin');
